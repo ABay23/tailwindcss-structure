@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        // Pacifico: ['Pacifico', ...defaultTheme.fontFamily.pacifico],
+        pacifico: ['Pacifico'],
       },
     },
   },

@@ -419,10 +419,6 @@ video {
   display: none;
 }
 
-html {
-  font-family: Pacifico, system-ui, sans-serif;
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -556,8 +552,17 @@ html {
   margin-right: auto;
 }
 
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .flex {
   display: flex;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .justify-between {
@@ -570,9 +575,14 @@ html {
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.bg-blue-600 {
+.bg-indigo-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+  background-color: rgb(55 48 163 / var(--tw-bg-opacity));
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .px-2 {
@@ -580,7 +590,27 @@ html {
   padding-right: 0.5rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
+
+.font-pacifico {
+  font-family: Pacifico;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+/* @layer base {
+  h1 {
+    font-family: Pacifico, system-ui, sans-serif;
+  }
+} */
